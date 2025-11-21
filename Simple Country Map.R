@@ -33,6 +33,7 @@ Tunisia<-ggplot(data = world) +
 
 plot(Tunisia) #Simple map of Tunisia, extended slightly to show coastal zones
 
+ggsave("My Simple Country Map.png", width = 6, height = 4, dpi = 300)
 
 #R Session----------------------------------------------------------------------
 
@@ -64,3 +65,5 @@ plot(Tunisia) #Simple map of Tunisia, extended slightly to show coastal zones
 #[11] cli_3.6.5          S7_0.2.1           scales_1.4.0       grid_4.5.1         vctrs_0.6.5       
 #[16] DBI_1.2.3          proxy_0.4-27       withr_3.0.2        class_7.3-23       compiler_4.5.1    
 #[21] tools_4.5.1        Rcpp_1.1.0         rlang_1.1.6        units_1.0-0   
+
+
